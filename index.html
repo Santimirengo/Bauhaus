@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bauhaus: Un Nuevo Comienzo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="header__logo">B.</a>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li><a href="historia.html" class="nav__link">Historia</a></li>
+                <li><a href="artistas.html" class="nav__link">Artistas</a></li>
+                <li><a href="obras.html" class="nav__link">Obras</a></li>
+            </ul>
+        </nav>
+        <div class="header__actions">
+            <a href="contacto.html" class="btn btn--ghost btn--nav">Contacto</a>
+            <a href="login.html" class="btn btn--primary btn--nav">Login</a>
+        </div>
+        <button class="hamburger" aria-label="Abrir menú">
+            <div class="hamburger__bar"></div>
+            <div class="hamburger__bar"></div>
+            <div class="hamburger__bar"></div>
+        </button>
+    </header>
+
+    <div class="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__item"><a href="historia.html" class="mobile-nav__link">Historia</a></li>
+            <li class="mobile-nav__item"><a href="artistas.html" class="mobile-nav__link">Artistas</a></li>
+            <li class="mobile-nav__item"><a href="obras.html" class="mobile-nav__link">Obras</a></li>
+            <li class="mobile-nav__item"><a href="contacto.html" class="mobile-nav__link">Contacto</a></li>
+            <li class="mobile-nav__item"><a href="login.html" class="mobile-nav__link">Login</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="hero-section">
+            <h1 class="hero__title">La forma sigue a la función</h1>
+            <p class="hero__subtitle">Rediseñando el mundo moderno</p>
+        </section>
+
+        <section class="intro-cards-section">
+            <div class="container">
+                <div class="intro-cards-grid">
+                    <!-- Card 1: Historia -->
+                    <a href="historia.html" class="card card--red">
+                        <div>
+                            <h2 class="card__title">Historia</h2>
+                            <p class="card__description">Desde Weimar hasta el exilio. Un viaje a través de las etapas clave de la escuela que cambió el diseño para siempre.</p>
+                        </div>
+                        <span class="card__link">
+                            Explorar
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>
+                        </span>
+                    </a>
+
+                    <!-- Card 2: Artistas -->
+                    <a href="artistas.html" class="card card--blue">
+                        <div>
+                            <h2 class="card__title">Artistas</h2>
+                            <p class="card__description">Las mentes maestras detrás de la revolución. Conoce a los visionarios que definieron la estética de la Bauhaus.</p>
+                        </div>
+                        <span class="card__link">
+                            Descubrir
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>
+                        </span>
+                    </a>
+
+                    <!-- Card 3: Obras -->
+                    <a href="obras.html" class="card card--yellow">
+                        <div>
+                            <h2 class="card__title">Obras</h2>
+                            <p class="card__description">De la silla Wassily a los edificios de Dessau. Una galería de los diseños más icónicos y perdurables de la escuela.</p>
+                        </div>
+                        <span class="card__link">
+                            Ver Galería
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p>&copy; 2025 Proyecto Bauhaus. Creado para Materiales y Procesos II.</p>
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/bauhaus_archiv/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg class="social-icon" width="28" height="28" viewBox="0 0 28 28" role="img" aria-hidden="true">
+                            <rect class="social-icon__bg" x="2" y="2" width="24" height="24" rx="4" ry="4"/>
+                            <circle class="social-icon__shape" cx="14" cy="14" r="6"/>
+                            <circle class="social-icon__dot" cx="21" cy="7" r="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/bauhaus_archiv" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <svg class="social-icon" width="28" height="28" viewBox="0 0 28 28" role="img" aria-hidden="true">
+                            <rect class="social-icon__bg" x="2" y="2" width="24" height="24" rx="4" ry="4"/>
+                            <path class="social-icon__shape" d="M9 9l10 10 M9 19l10-10"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/bauhausarchiv" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <svg class="social-icon" width="28" height="28" viewBox="0 0 28 28" role="img" aria-hidden="true">
+                            <rect class="social-icon__bg" x="2" y="2" width="24" height="24" rx="4" ry="4"/>
+                            <path class="social-icon__shape" d="M18 13h-3.5v10h-4V13H8v-4h2.5V7.5c0-2 1-3.5 3.5-3.5h3v4h-3c-.5 0-.5.5-.5 1V9h4l-.5 4z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

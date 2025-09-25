@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas de la Bauhaus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="header__logo">B.</a>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li><a href="historia.html" class="nav__link">Historia</a></li>
+                <li><a href="artistas.html" class="nav__link">Artistas</a></li>
+                <li><a href="obras.html" class="nav__link">Obras</a></li>
+            </ul>
+        </nav>
+        <div class="header__actions">
+            <a href="contacto.html" class="btn btn--ghost btn--nav">Contacto</a>
+            <a href="login.html" class="btn btn--primary btn--nav">Login</a>
+        </div>
+        <button class="hamburger" aria-label="Abrir menú">
+            <div class="hamburger__bar"></div>
+            <div class="hamburger__bar"></div>
+            <div class="hamburger__bar"></div>
+        </button>
+    </header>
+
+    <div class="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__item"><a href="historia.html" class="mobile-nav__link">Historia</a></li>
+            <li class="mobile-nav__item"><a href="artistas.html" class="mobile-nav__link">Artistas</a></li>
+            <li class="mobile-nav__item"><a href="obras.html" class="mobile-nav__link">Obras</a></li>
+            <li class="mobile-nav__item"><a href="contacto.html" class="mobile-nav__link">Contacto</a></li>
+            <li class="mobile-nav__item"><a href="login.html" class="mobile-nav__link">Login</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <header class="page-header" style="background-color: var(--c-red);">
+            <h1 class="page-header__title">Los Maestros</h1>
+        </header>
+
+        <section class="artists-section">
+            <div class="container">
+                <div class="artists-grid">
+
+                    <!-- Artista 1: Walter Gropius -->
+                    <div class="artist-card">
+                        <div class="artist-card__image-wrapper">
+                            <img src="img/Walter_Gropius_Foto_1920.jpg" alt="Retrato de Walter Gropius" class="artist-card__image">
+                        </div>
+                        <div class="artist-card__info">
+                            <h2 class="artist-card__name">Walter Gropius</h2>
+                            <p class="artist-card__role">Arquitecto y Fundador</p>
+                            <p class="artist-card__bio">Fundador de la Bauhaus, Gropius buscaba la unión de todas las artes bajo el primado de la arquitectura. Su visión era crear una nueva estética para la era industrial.</p>
+                            <a href="https://es.wikipedia.org/wiki/Walter_Gropius" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Ver Biografía</a>
+                        </div>
+                    </div>
+
+                    <!-- Artista 2: Marcel Breuer -->
+                    <div class="artist-card">
+                        <div class="artist-card__image-wrapper">
+                            <img src="img/Marcel_Breuer_(cropped).jpg" alt="Retrato de Marcel Breuer" class="artist-card__image">
+                        </div>
+                        <div class="artist-card__info">
+                            <h2 class="artist-card__name">Marcel Breuer</h2>
+                            <p class="artist-card__role">Diseñador y Arquitecto</p>
+                            <p class="artist-card__bio">Conocido por su innovador uso del acero tubular en el diseño de muebles, como la icónica silla Wassily, Breuer fue una figura clave en el taller de mobiliario de la escuela.</p>
+                            <a href="https://es.wikipedia.org/wiki/Marcel_Breuer" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Ver Biografía</a>
+                        </div>
+                    </div>
+
+                    <!-- Artista 3: Marianne Brandt -->
+                    <div class="artist-card">
+                        <div class="artist-card__image-wrapper">
+                            <img src="img/Marianne_Brandt.jpg" alt="Retrato de Marianne Brandt" class="artist-card__image">
+                        </div>
+                        <div class="artist-card__info">
+                            <h2 class="artist-card__name">Marianne Brandt</h2>
+                            <p class="artist-card__role">Diseñadora de Metales</p>
+                            <p class="artist-card__bio">Una de las pocas mujeres en el taller de metales, Brandt creó diseños de objetos cotidianos, como lámparas y teteras, que se han convertido en clásicos del diseño moderno.</p>
+                            <a href="https://es.wikipedia.org/wiki/Marianne_Brandt" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Ver Biografía</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p>&copy; 2025 Proyecto Bauhaus. Creado para Materiales y Procesos II.</p>
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/bauhaus_archiv/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg class="social-icon" width="28" height="28" viewBox="0 0 28 28" role="img" aria-hidden="true">
+                            <rect class="social-icon__bg" x="2" y="2" width="24" height="24" rx="4" ry="4"/>
+                            <circle class="social-icon__shape" cx="14" cy="14" r="6"/>
+                            <circle class="social-icon__dot" cx="21" cy="7" r="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/bauhaus_archiv" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <svg class="social-icon" width="28" height="28" viewBox="0 0 28 28" role="img" aria-hidden="true">
+                            <rect class="social-icon__bg" x="2" y="2" width="24" height="24" rx="4" ry="4"/>
+                            <path class="social-icon__shape" d="M9 9l10 10 M9 19l10-10"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/bauhausarchiv" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <svg class="social-icon" width="28" height="28" viewBox="0 0 28 28" role="img" aria-hidden="true">
+                            <rect class="social-icon__bg" x="2" y="2" width="24" height="24" rx="4" ry="4"/>
+                            <path class="social-icon__shape" d="M18 13h-3.5v10h-4V13H8v-4h2.5V7.5c0-2 1-3.5 3.5-3.5h3v4h-3c-.5 0-.5.5-.5 1V9h4l-.5 4z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

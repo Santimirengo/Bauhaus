@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Bauhaus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="header__logo">B.</a>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li><a href="historia.html" class="nav__link">Historia</a></li>
+                <li><a href="artistas.html" class="nav__link">Artistas</a></li>
+                <li><a href="obras.html" class="nav__link">Obras</a></li>
+            </ul>
+        </nav>
+        <div class="header__actions">
+            <a href="contacto.html" class="btn btn--ghost btn--nav">Contacto</a>
+            <a href="login.html" class="btn btn--primary btn--nav">Login</a>
+        </div>
+        <button class="hamburger" aria-label="Abrir menú">
+            <div class="hamburger__bar"></div>
+            <div class="hamburger__bar"></div>
+            <div class="hamburger__bar"></div>
+        </button>
+    </header>
+
+    <div class="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__item"><a href="historia.html" class="mobile-nav__link">Historia</a></li>
+            <li class="mobile-nav__item"><a href="artistas.html" class="mobile-nav__link">Artistas</a></li>
+            <li class="mobile-nav__item"><a href="obras.html" class="mobile-nav__link">Obras</a></li>
+            <li class="mobile-nav__item"><a href="contacto.html" class="mobile-nav__link">Contacto</a></li>
+            <li class="mobile-nav__item"><a href="login.html" class="mobile-nav__link">Login</a></li>
+        </ul>
+    </div>
+
+    <main class="form-page-wrapper">
+        <div class="form-card">
+            <h1 class="form-card__title">Login</h1>
+            <form action="#">
+                <div class="form-group">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full">Ingresar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p>&copy; 2025 Proyecto Bauhaus. Creado para Materiales y Procesos II.</p>
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/bauhaus_archiv/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg class="social-icon" width="28" height="28" viewBox="0 0 28 28" role="img" aria-hidden="true">
+                            <rect class="social-icon__bg" x="2" y="2" width="24" height="24" rx="4" ry="4"/>
+                            <circle class="social-icon__shape" cx="14" cy="14" r="6"/>
+                            <circle class="social-icon__dot" cx="21" cy="7" r="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/bauhaus_archiv" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <svg class="social-icon" width="28" height="28" viewBox="0 0 28 28" role="img" aria-hidden="true">
+                            <rect class="social-icon__bg" x="2" y="2" width="24" height="24" rx="4" ry="4"/>
+                            <path class="social-icon__shape" d="M9 9l10 10 M9 19l10-10"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/bauhausarchiv" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <svg class="social-icon" width="28" height="28" viewBox="0 0 28 28" role="img" aria-hidden="true">
+                            <rect class="social-icon__bg" x="2" y="2" width="24" height="24" rx="4" ry="4"/>
+                            <path class="social-icon__shape" d="M18 13h-3.5v10h-4V13H8v-4h2.5V7.5c0-2 1-3.5 3.5-3.5h3v4h-3c-.5 0-.5.5-.5 1V9h4l-.5 4z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
